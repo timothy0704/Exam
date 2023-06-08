@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int x = 3;
+        int sum = 0;
+        while (x <= 99)
+        {
+            sum += x;
+            x += 2;
+        }
+
+        Console.WriteLine("The sum of the result is: " + sum);
+    }
+}
